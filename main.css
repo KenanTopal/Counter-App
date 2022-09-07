@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./img/sis.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1, h2{
+  color: rgb(218, 218, 218);
+  font-size: 48px;
+  font-weight: 600px;
+  text-shadow: 3px 3px 10px rgba(230, 230, 230, 0.5);
+}
+
+button{
+  width: 140px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-style: none;
+  align-items: center;
+  background-color: rgba(230, 230, 230, 0.5);
+  cursor: pointer;
+  font-size: large;
+  transition: all 0.2;
+  
+  
+}
+
+button:active{
+  background-color: black;
+  color: rgba(230, 230, 230, 0.5);
+}
+
+
+p{
+  padding-top: 30px;
+  padding-left: 50px;
+  color: white;
+}
+
+
+
